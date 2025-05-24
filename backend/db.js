@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURI = "mongodb://127.0.0.1:27017/manager";
+const mongoURI = "mongodb+srv://chavdaurvi463:ltI72WasTSyYOjwg@cluster0.jvyg3pl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const connectMongo = async () => {
   try {
