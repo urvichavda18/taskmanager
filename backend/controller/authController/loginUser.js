@@ -33,9 +33,6 @@ exports.loginUser = async (req, res) => {
             profileImageUrl: user.profileImageUrl,
             token: generateToken(user._id),
         });
-
-        
-
     } catch (error) {
         res.status(500).json({ message: "Error logging user", error: error.message });
     }
